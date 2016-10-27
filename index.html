@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Validate Me Plugin</title>
+    <link rel="stylesheet" href="styles/jquery.validateme.css">
+  </head>
+  <body>
+    <form action="#" class="form">
+      <div class="form__line">
+        <label class="form__label">
+          <span class="form__label-name">Name</span>
+          <input type="text" class="form__field" name="name" required="true" />
+        </label>
+      </div>
+      <div class="form__line">
+        <label class="form__label">
+          <span class="form__label-name">Е-mail</span>
+          <input type="email" class="form__field" name="email" required="true" />
+        </label>
+      </div>
+      <div class="form__line">
+        <label class="form__label">
+          <span class="form__label-name">Phone number</span>
+          <input type="tel" class="form__field form__field--phone" name="phone" placeholder="(0__) ___-__-__" required />
+        </label>
+      </div>
+      <div class="form__submit">
+        <button type="submit">Submit form</button>
+      </div>
+    </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="scripts/jquery.validateme.js"></script>
+    <script>
+      $('.form').validateMe();
+    </script>
+  </body>
+</html>
