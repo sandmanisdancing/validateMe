@@ -16,3 +16,7 @@ Also, this plugin sets state of submit button — user can't submit form, while 
     $('.form').validateMe({
       submitBtn: '.i-submit'
     });
+
+## Demo
+
+https://sandmanisdancing.github.io/validateMe/
