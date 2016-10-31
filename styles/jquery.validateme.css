@@ -3,10 +3,13 @@
 }
 
 .form {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
   width: 260px;
+  padding: 15px;
+  background-color: #e0f1ff;
+  font-family: Arial, sans-serif;
 }
 
 .form__label {
